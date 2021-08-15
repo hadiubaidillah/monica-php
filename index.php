@@ -20,11 +20,9 @@
 			<nav class="main-header">
 				<ul class="main-header__primary-nav">
 					<li class="main-header__primary-nav--link"><a href="https://mail.google.com/mail/?authuser=0&ogbl">Request</a></li>
-					<?php /*
 					<li class="main-header__primary-nav--link"><a href="https://www.google.com.mx/imghp?hl=es-419&authuser=0&ogbl">Gambar</a></li>
 					<li class="main-header__primary-nav--icon apps"><a href=""><img src="https://img.icons8.com/color/96/000000/circled-menu.png" alt="Google Apps" title="Google Apps"></a></li>
 					<li class="main-header__primary-nav--icon account"><a href=""><img src="https://lh3.googleusercontent.com/ogw/ADea4I7Q__0GI0wIegzPNBT2RgCO80U8QJtPvqM15u89tw=s83-c-mo" style="border-radius: 50%;" alt="Account" title="Akun Google"></a></li>
-					 */ ?>
 				</ul>
 			</nav>
 		</header>
@@ -48,9 +46,9 @@
 			<?php /* <section class="main-container__by-google">
 				<p class="main-container__by-google--link">Google menawarkan: <a href="">English</a></p>
 			</section> */ ?>
-			<!-- <section class="main-container__by-google">
-				<p class="main-container__by-google--link">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</section> -->
+			<section class="main-container__by-google">
+				<p class="main-container__by-google--link">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id consequat ante.</p>
+			</section>
 			
 		</main>
 		<footer class="main-footer">
