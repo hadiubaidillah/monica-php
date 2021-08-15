@@ -106,15 +106,19 @@ body {
   background-position: center;
   background-size: cover;
 }
+.main-container__searchbar:hover {
+  /* border: none; */
+  box-shadow: 0px 0px 4px 0px rgba(112, 117, 137, 0.4);
+}
 .main-container__searchbar--icon-camera {
   width: 20px;
   height: 20px;
-  margin: 0 15px;
+  margin: 0 20px;
   background-image: url('./assets/camera.png');
   background-position: center;
   background-size: cover;
 }
-.main-container__searchbar:hover {
+.main-container__searchbar-camera:hover {
   /* border: none; */
   box-shadow: 0px 0px 4px 0px rgba(112, 117, 137, 0.4);
 }
@@ -134,6 +138,10 @@ body {
   font-size: 1.3rem;
   justify-content: center;
 }
+.main-container__buttons > .active {
+  background:#4185F4;
+  color:white;
+}
 .main-container__buttons--clickable {
   margin: 0 10px;
   padding: 10px;
@@ -145,7 +153,7 @@ body {
 }
 .main-container__buttons--clickable:hover {
   border: 2px solid rgba(235, 235, 235, 0.9);
-  color: rgb(80, 83, 95);
+  /* color: rgb(80, 83, 95); */
 }
 
 .main-container__by-google--link {

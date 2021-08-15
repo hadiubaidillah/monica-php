@@ -10,6 +10,10 @@
 		<link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
 		<link rel="icon" href="./assets/monica-icon-2.png">
 		<title>Monica</title>
+		<?php 
+			$type = $_GET['type'];
+			if($type != 'images') $type = 'word';
+		?>
 	</head>
 	<body>
 		<header>
@@ -33,16 +37,21 @@
 				<div>
 					<span class="main-container__searchbar--icon"></span>
 					<input class="main-container__searchbar--input" id="searchbar" type="text">
-					<span class="main-container__searchbar--icon-camera"></span>
+					<!-- <span class="main-container__searchbar--icon-camera"></span> -->
 				</div>
 			</section>
 			<section class="main-container__buttons">
-				<a class="main-container__buttons--clickable" href="" draggable="false">Penelusuran Kata</a>
-				<a class="main-container__buttons--clickable" href="https://www.google.com/doodles" draggable="false">Penelusuran Gambar</a>
+				
+				<a class="main-container__buttons--clickable <?= ($type == 'word' ? 'active' : '') ?>" href="?type=word" draggable="false">Penelusuran Kata</a>
+				<a class="main-container__buttons--clickable <?= ($type == 'images' ? 'active' : '') ?>" href="?type=images" draggable="false">Penelusuran Gambar</a>
 			</section>
 			<?php /* <section class="main-container__by-google">
 				<p class="main-container__by-google--link">Google menawarkan: <a href="">English</a></p>
 			</section> */ ?>
+			<!-- <section class="main-container__by-google">
+				<p class="main-container__by-google--link">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</section> -->
+			
 		</main>
 		<footer class="main-footer">
 			<section class="main-footer-nav-containers">
