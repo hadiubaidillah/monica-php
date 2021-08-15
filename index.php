@@ -42,7 +42,7 @@
 				<div>
 					<span class="main-container__searchbar--icon"></span>
 					<input class="main-container__searchbar--input" id="searchbar" type="text">
-					<!-- <span class="main-container__searchbar--icon-camera"></span> -->
+					<?php if($type == 'images') { ?><span class="main-container__searchbar--icon-camera"></span> <?php } ?>
 				</div>
 			</section>
 			<section class="main-container__buttons">
