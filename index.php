@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="./style.css">
 		<link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
 		<link rel="icon" href="./assets/monica-icon-2.png">
-		<title>Google</title>
+		<title>Monica</title>
 	</head>
 	<body>
 		<header>
