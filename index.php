@@ -18,6 +18,9 @@
 	<body>
 		<header>
 			<nav class="main-header">
+				<ul class="main-header__primary-nav" style="float:left">
+					<li class="main-header__primary-nav--link"><a href="javascript:void(0)"><img src="./assets/pertamina.jpeg" height="35px" /></a></li>
+				</ul>
 				<ul class="main-header__primary-nav">
 					<li class="main-header__primary-nav--link"><a href="request.php">Request</a></li>
 					<?php if($type == 'words') { ?>
@@ -43,7 +46,7 @@
 				</div>
 			</section>
 			<section class="main-container__buttons">
-				<a class="main-container__buttons--clickable <?= ($type == 'words' ? 'active' : '') ?>" href="?type=words" draggable="false">Penelusuran dengan Monica</a>
+				<a class="main-container__buttons--clickable <?= ($type == 'words' ? 'active' : '') ?>" href="?type=words" draggable="false">Cari dengan Monica</a>
 				<a class="main-container__buttons--clickable <?= ($type == 'images' ? 'active' : '') ?>" href="?type=images" draggable="false">Penelusuran Gambar</a>
 			</section>
 			<?php /* <section class="main-container__by-google">
