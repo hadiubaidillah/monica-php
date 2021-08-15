@@ -12,15 +12,19 @@
 		<title>Monica</title>
 		<?php 
 			$type = $_GET['type'];
-			if($type != 'images') $type = 'word';
+			if($type != 'images') $type = 'words';
 		?>
 	</head>
 	<body>
 		<header>
 			<nav class="main-header">
 				<ul class="main-header__primary-nav">
-					<li class="main-header__primary-nav--link"><a href="https://mail.google.com/mail/?authuser=0&ogbl">Request</a></li>
-					<li class="main-header__primary-nav--link"><a href="https://www.google.com.mx/imghp?hl=es-419&authuser=0&ogbl">Gambar</a></li>
+					<li class="main-header__primary-nav--link"><a href="request.php">Request</a></li>
+					<?php if($type == 'words') { ?>
+						<li class="main-header__primary-nav--link"><a href="?type=images">Images</a></li>
+					<?php } else { ?>
+						<li class="main-header__primary-nav--link"><a href="?type=words">Words</a></li>
+					<?php } ?>
 					<li class="main-header__primary-nav--icon apps"><a href=""><img src="https://img.icons8.com/color/96/000000/circled-menu.png" alt="Google Apps" title="Google Apps"></a></li>
 					<li class="main-header__primary-nav--icon account"><a href=""><img src="https://lh3.googleusercontent.com/ogw/ADea4I7Q__0GI0wIegzPNBT2RgCO80U8QJtPvqM15u89tw=s83-c-mo" style="border-radius: 50%;" alt="Account" title="Akun Google"></a></li>
 				</ul>
@@ -38,10 +42,10 @@
 					<!-- <span class="main-container__searchbar--icon-camera"></span> -->
 				</div>
 			</section>
-			<section class="main-container__buttons">
-				<a class="main-container__buttons--clickable <?= ($type == 'word' ? 'active' : '') ?>" href="?type=word" draggable="false">Penelusuran Kata</a>
+			<!-- <section class="main-container__buttons">
+				<a class="main-container__buttons--clickable <?= ($type == 'words' ? 'active' : '') ?>" href="?type=words" draggable="false">Penelusuran Kata</a>
 				<a class="main-container__buttons--clickable <?= ($type == 'images' ? 'active' : '') ?>" href="?type=images" draggable="false">Penelusuran Gambar</a>
-			</section>
+			</section> -->
 			<?php /* <section class="main-container__by-google">
 				<p class="main-container__by-google--link">Google menawarkan: <a href="">English</a></p>
 			</section> */ ?>
