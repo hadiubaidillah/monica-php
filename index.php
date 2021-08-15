@@ -33,10 +33,11 @@
 				<div>
 					<span class="main-container__searchbar--icon"></span>
 					<input class="main-container__searchbar--input" id="searchbar" type="text">
+					<span class="main-container__searchbar--icon-camera"></span>
 				</div>
 			</section>
 			<section class="main-container__buttons">
-				<a class="main-container__buttons--clickable" href="" draggable="false">Cari dengan Monica</a>
+				<a class="main-container__buttons--clickable" href="" draggable="false">Penelusuran Kata</a>
 				<a class="main-container__buttons--clickable" href="https://www.google.com/doodles" draggable="false">Penelusuran Gambar</a>
 			</section>
 			<?php /* <section class="main-container__by-google">
