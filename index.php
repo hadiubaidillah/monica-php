@@ -42,16 +42,16 @@
 					<!-- <span class="main-container__searchbar--icon-camera"></span> -->
 				</div>
 			</section>
-			<!-- <section class="main-container__buttons">
+			<section class="main-container__buttons">
 				<a class="main-container__buttons--clickable <?= ($type == 'words' ? 'active' : '') ?>" href="?type=words" draggable="false">Penelusuran Kata</a>
 				<a class="main-container__buttons--clickable <?= ($type == 'images' ? 'active' : '') ?>" href="?type=images" draggable="false">Penelusuran Gambar</a>
-			</section> -->
+			</section>
 			<?php /* <section class="main-container__by-google">
 				<p class="main-container__by-google--link">Google menawarkan: <a href="">English</a></p>
 			</section> */ ?>
-			<section class="main-container__by-google">
+			<!-- <section class="main-container__by-google">
 				<p class="main-container__by-google--link">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id consequat ante.</p>
-			</section>
+			</section> -->
 			
 		</main>
 		<footer class="main-footer">
@@ -61,7 +61,7 @@
 						<li class="main-footer__about-nav--link"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiwzozJzeLuAhUBP6wKHYATDeoQkNQCCA8&url=https%3A%2F%2Fabout.google%2F%3Futm_source%3Dgoogle-MX%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw09qQxZE2XyQ825PN7qaVq3">About</a></li>
 						<li class="main-footer__about-nav--link"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiwzozJzeLuAhUBP6wKHYATDeoQkdQCCBA&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fes-419_mx%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw1QzHJE-K3jCVQm2gja38T9">Our Team</a></li>
 						<li class="main-footer__about-nav--link"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiwzozJzeLuAhUBP6wKHYATDeoQktQCCBE&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K">Procedure</a></li>
-						<li class="main-footer__about-nav--link"><a href="https://google.com/search/howsearchworks/?fg=1">How to Work</a></li>
+						<li class="main-footer__about-nav--link"><a href="https://google.com/search/howsearchworks/?fg=1">How we Work</a></li>
 					</ul>
 				</nav>
 				<?php /* <nav>
