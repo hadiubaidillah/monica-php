@@ -39,7 +39,6 @@
 				</div>
 			</section>
 			<section class="main-container__buttons">
-				
 				<a class="main-container__buttons--clickable <?= ($type == 'word' ? 'active' : '') ?>" href="?type=word" draggable="false">Penelusuran Kata</a>
 				<a class="main-container__buttons--clickable <?= ($type == 'images' ? 'active' : '') ?>" href="?type=images" draggable="false">Penelusuran Gambar</a>
 			</section>

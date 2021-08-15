@@ -78,9 +78,9 @@ body {
   justify-content: center;
 }
 .main-container__image span {
-  width: 320px;
-  height: 120px;
-  background-image: url('./assets/monica6.png');
+  width: 350px;
+  height: 140px;
+  background-image: url('./assets/monica.jpeg');
   background-size: cover;
 }
 
