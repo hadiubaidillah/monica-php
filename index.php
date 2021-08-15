@@ -8,7 +8,7 @@
 		<meta name="robots" content="index,follow"/>
 		<link rel="stylesheet" href="./style.css">
 		<link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
-		<link rel="icon" href="./assets/monica-icon-2.png">
+		<link rel="icon" href="./assets/favicon.png">
 		<title>Monica</title>
 		<?php 
 			$type = $_GET['type'];
