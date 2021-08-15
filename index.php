@@ -16,9 +16,11 @@
 			<nav class="main-header">
 				<ul class="main-header__primary-nav">
 					<li class="main-header__primary-nav--link"><a href="https://mail.google.com/mail/?authuser=0&ogbl">Request</a></li>
-					<?php /* <li class="main-header__primary-nav--link"><a href="https://www.google.com.mx/imghp?hl=es-419&authuser=0&ogbl">Gambar</a></li>
+					<?php /*
+					<li class="main-header__primary-nav--link"><a href="https://www.google.com.mx/imghp?hl=es-419&authuser=0&ogbl">Gambar</a></li>
 					<li class="main-header__primary-nav--icon apps"><a href=""><img src="https://img.icons8.com/color/96/000000/circled-menu.png" alt="Google Apps" title="Google Apps"></a></li>
-					<li class="main-header__primary-nav--icon account"><a href=""><img src="https://lh3.googleusercontent.com/ogw/ADea4I7Q__0GI0wIegzPNBT2RgCO80U8QJtPvqM15u89tw=s83-c-mo" style="border-radius: 50%;" alt="Account" title="Akun Google"></a></li> */ ?>
+					<li class="main-header__primary-nav--icon account"><a href=""><img src="https://lh3.googleusercontent.com/ogw/ADea4I7Q__0GI0wIegzPNBT2RgCO80U8QJtPvqM15u89tw=s83-c-mo" style="border-radius: 50%;" alt="Account" title="Akun Google"></a></li>
+					 */ ?>
 				</ul>
 			</nav>
 		</header>
@@ -51,13 +53,13 @@
 						<li class="main-footer__about-nav--link"><a href="https://google.com/search/howsearchworks/?fg=1">How to Work</a></li>
 					</ul>
 				</nav>
-				<!-- <nav>
+				<?php /* <nav>
 					<ul class="main-footer__privacy-nav">
 						<li class="main-footer__privacy-nav--link"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiwzozJzeLuAhUBP6wKHYATDeoQ8awCCBI&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Fhl%3Des-419%26fg%3D1&usg=AOvVaw0kHgtbRrD3oGV-KWOzk5Hz">Privacy</a></li>
 						<li class="main-footer__privacy-nav--link"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiwzozJzeLuAhUBP6wKHYATDeoQ8qwCCBM&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Fhl%3Des-419%26fg%3D1&usg=AOvVaw3Zv4AmKUS3beVzeEax8Pzp">Terms</a></li>
 						<li class="main-footer__privacy-nav--link"><a href="">Settings</a></li>
 					</ul>
-				</nav> -->
+				</nav> */ ?>
 			</section>
 		</footer>
 		<script src="./index.js"></script>
