@@ -1,0 +1,7 @@
+.main-footer-nav-containers {
+  justify-content: space-between;
+}
+.main-footer__about-nav {
+  display: inline-block;
+  padding: 0 20px;
+}
