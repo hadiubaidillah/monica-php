@@ -43,7 +43,7 @@
 				</div>
 			</section>
 			<section class="main-container__buttons">
-				<a class="main-container__buttons--clickable <?= ($type == 'words' ? 'active' : '') ?>" href="?type=words" draggable="false">Penelusuran Kata</a>
+				<a class="main-container__buttons--clickable <?= ($type == 'words' ? 'active' : '') ?>" href="?type=words" draggable="false">Penelusuran dengan Monica</a>
 				<a class="main-container__buttons--clickable <?= ($type == 'images' ? 'active' : '') ?>" href="?type=images" draggable="false">Penelusuran Gambar</a>
 			</section>
 			<?php /* <section class="main-container__by-google">
